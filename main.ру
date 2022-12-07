@@ -2,5 +2,5 @@ import random
 num = input('login ')
 pas = ''
 for x in range(11): #Количество символов (11)
-    pas = pas + random.choice(list('abcdefghigklmnopqrstuvyxwz')) #Символы, из которых будет составлен пароль
+    pas = pas + random.choice(list('1234567890abcdefghigklmnopqrstuvyxwz')) #Символы, из которых будет составлен пароль
 print('Hello, ', num, 'your password is: ', pas)
